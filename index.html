@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TenVew</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <!--@bootstrapCss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    
+
+    <div class="alert alert-primary" role="alert">
+        This is a primary alert—check it out with bootstrap!
+    </div>
+
+</div>
+
+
+
+<!--@reactjsWrapper-->
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<script type="text/babel" src ="js/app.js"></script>
+
+
+<!--main js-->
+<script src="js/main.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinVew</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to TinVew</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Follow</a>
+        <a href="#">Like</a>
+        <a href="#">Comment</a>
+        <a href="#">Share</a>
+        <a href="#">Viewers</a>
+        <a href="#">Search</a>
+        <a href="#">Upload Video</a>
+        <a href="#">Upload Photos</a>
+        <a href="#">Upload Short Video</a>
+        <a href="#">For You Page</a>
+    </nav>
+    <main>
+        <div class="video">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h2>Username</h2>
+        </div>
+        <div class="actions">
+            <button id="followBtn">Follow</button>
+            <button id="likeBtn">Like</button>
+            <button id="commentBtn">Comment</button>
+            <button id="shareBtn">Share</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 TinVew. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<style>/* CSS styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+main {
+    padding: 20px;
+}
+.video {
+    margin-bottom: 20px;
+}
+.video video {
+    width: 100%;
+    height: auto;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style><script>// JavaScript functionality for TinVew
+
+// Simulating follow button functionality
+document.getElementById('followBtn').addEventListener('click', function() {
+    alert('You are now following this user.');
+});
+
+// Simulating like button functionality
+document.getElementById('likeBtn').addEventListener('click', function() {
+    alert('You liked this video.');
+});
+
+// Simulating comment button functionality
+document.getElementById('commentBtn').addEventListener('click', function() {
+    alert('You commented on this video.');
+});
+
+// Simulating share button functionality
+document.getElementById('shareBtn').addEventListener('click', function() {
+    alert('You shared this video.');
+});
+</script>
